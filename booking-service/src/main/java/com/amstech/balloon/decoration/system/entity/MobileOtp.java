@@ -20,8 +20,8 @@ public class MobileOtp implements Serializable {
 	private int id;
 
 	@Temporal(TemporalType.TIMESTAMP)
-	@Column(name="ganrated_at")
-	private Date ganratedAt;
+	@Column(name="generated_at")
+	private Date generatedAt;
 
 	private String number;
 
@@ -38,12 +38,12 @@ public class MobileOtp implements Serializable {
 		this.id = id;
 	}
 
-	public Date getGanratedAt() {
-		return this.ganratedAt;
+	public Date getGeneratedAt() {
+		return this.generatedAt;
 	}
 
-	public void setGanratedAt(Date ganratedAt) {
-		this.ganratedAt = ganratedAt;
+	public void setGeneratedAt(Date generatedAt) {
+		this.generatedAt = generatedAt;
 	}
 
 	public String getNumber() {

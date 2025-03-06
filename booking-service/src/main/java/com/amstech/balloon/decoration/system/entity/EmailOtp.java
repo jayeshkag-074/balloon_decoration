@@ -22,8 +22,8 @@ public class EmailOtp implements Serializable {
 	private String email;
 
 	@Temporal(TemporalType.TIMESTAMP)
-	@Column(name="ganrated_at")
-	private Date ganratedAt;
+	@Column(name="generated_at")
+	private Date generatedAt;
 
 	private int otp;
 
@@ -46,12 +46,12 @@ public class EmailOtp implements Serializable {
 		this.email = email;
 	}
 
-	public Date getGanratedAt() {
-		return this.ganratedAt;
+	public Date getGeneratedAt() {
+		return this.generatedAt;
 	}
 
-	public void setGanratedAt(Date ganratedAt) {
-		this.ganratedAt = ganratedAt;
+	public void setGeneratedAt(Date generatedAt) {
+		this.generatedAt = generatedAt;
 	}
 
 	public int getOtp() {
