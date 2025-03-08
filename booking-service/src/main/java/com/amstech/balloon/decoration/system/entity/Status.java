@@ -34,6 +34,10 @@ public class Status implements Serializable {
 	@OneToMany(mappedBy="status")
 	private List<Decoration> decorations;
 
+	//bi-directional many-to-one association to Notification
+	@OneToMany(mappedBy="status")
+	private List<Notification> notifications;
+
 	public Status() {
 	}
 
@@ -125,6 +129,28 @@ public class Status implements Serializable {
 		decoration.setStatus(null);
 
 		return decoration;
+	}
+
+	public List<Notification> getNotifications() {
+		return this.notifications;
+	}
+
+	public void setNotifications(List<Notification> notifications) {
+		this.notifications = notifications;
+	}
+
+	public Notification addNotification(Notification notification) {
+		getNotifications().add(notification);
+		notification.setStatus(this);
+
+		return notification;
+	}
+
+	public Notification removeNotification(Notification notification) {
+		getNotifications().remove(notification);
+		notification.setStatus(null);
+
+		return notification;
 	}
 
 }
