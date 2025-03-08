@@ -40,6 +40,10 @@ public class Notification implements Serializable {
 	@JoinColumn(name="sender_id")
 	private User user2;
 
+	//bi-directional many-to-one association to Status
+	@ManyToOne
+	private Status status;
+
 	public Notification() {
 	}
 
@@ -97,6 +101,14 @@ public class Notification implements Serializable {
 
 	public void setUser2(User user2) {
 		this.user2 = user2;
+	}
+
+	public Status getStatus() {
+		return this.status;
+	}
+
+	public void setStatus(Status status) {
+		this.status = status;
 	}
 
 }
