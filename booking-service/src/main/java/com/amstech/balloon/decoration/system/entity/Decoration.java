@@ -5,6 +5,8 @@ import jakarta.persistence.*;
 import java.util.Date;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 
 /**
  * The persistent class for the decorations database table.

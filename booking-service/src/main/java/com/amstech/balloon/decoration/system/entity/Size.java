@@ -1,6 +1,9 @@
 package com.amstech.balloon.decoration.system.entity;
 
 import java.io.Serializable;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.*;
 
 
@@ -23,6 +26,7 @@ public class Size implements Serializable {
 
 	//bi-directional many-to-one association to Decoration
 	@ManyToOne
+	@JsonIgnore
 	private Decoration decoration;
 
 	public Size() {
