@@ -4,6 +4,8 @@ import java.io.Serializable;
 import jakarta.persistence.*;
 import java.util.Date;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 
 /**
  * The persistent class for the booking database table.
@@ -28,6 +30,7 @@ public class Booking implements Serializable {
 
 	//bi-directional many-to-one association to Decoration
 	@ManyToOne
+	@JsonIgnore
 	private Decoration decoration;
 
 	//bi-directional many-to-one association to Status
