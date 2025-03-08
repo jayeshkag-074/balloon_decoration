@@ -5,7 +5,8 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:mysql://localhost:3306/balloon_decoration
     username: root
-    password: root
+    password: Root
+
     driver-class: com.mysql.cj.jdbc.Driver
     hikari:
       minimumIdle: 5
