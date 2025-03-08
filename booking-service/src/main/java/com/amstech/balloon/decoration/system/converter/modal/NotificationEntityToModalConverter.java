@@ -3,9 +3,11 @@ package com.amstech.balloon.decoration.system.converter.modal;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
 import com.amstech.balloon.decoration.system.entity.Notification;
 import com.amstech.balloon.decoration.system.modal.response.NotificationResponseModal;
-
+@Component
 public class NotificationEntityToModalConverter {
 
 	public List<NotificationResponseModal> findAllByReceiverId(List<Notification> notifications){
