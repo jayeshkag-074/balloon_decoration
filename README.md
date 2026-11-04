@@ -6,7 +6,7 @@ A website for a balloon decoration business where customers can explore decorati
 
 ## ✨ Features!
 
-### 🎉 Decoration Services
+### 🎉 Decoration Services!
 - Birthday Decorations
 - Anniversary Decorations
 - Baby Shower Decorations
