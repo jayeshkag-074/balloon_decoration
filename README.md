@@ -15,7 +15,7 @@ A website for a balloon decoration business where customers can explore decorati
 - Room Decorations
 - Custom Event Decorations
 
-### 👤 Customer Features
+### 👤 Customer Features!
 - Browse decoration designs and themes
 - View decoration packages
 - Check package details and pricing
