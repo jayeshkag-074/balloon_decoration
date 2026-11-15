@@ -29,7 +29,7 @@ A website for a balloon decoration business where customers can explore decorati
 - Manage bookings
 - Update package prices and availability
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies Used!
 
 - HTML5
 - CSS3
