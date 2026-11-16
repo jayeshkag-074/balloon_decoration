@@ -23,7 +23,7 @@ A website for a balloon decoration business where customers can explore decorati
 - Provide event date and location
 - Request customized decorations
 
-### 🔐 Admin Features (If Implemented)
+### 🔐 Admin Features (If Implemented)!
 - Add, update, and delete decoration packages
 - Manage customer enquiries
 - Manage bookings
