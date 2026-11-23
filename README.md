@@ -108,7 +108,7 @@ Add your project screenshots here:
 
 GitHub: [Your GitHub Profile](https://github.com/)
 
-## 📄 License
+## 📄 License!
 
 Add a suitable license if you plan to distribute this project publicly.
 
