@@ -36,7 +36,7 @@ A website for a balloon decoration business where customers can explore decorati
 - JavaScript
 - Git and GitHub
 
-### Optional Full-Stack Technologies
+### Optional Full-Stack Technologies!
 - Angular
 - Java
 - Spring Boot
