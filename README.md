@@ -57,7 +57,7 @@ balloon-decoration/
 
 ## 🚀 Getting Started!
 
-### 1. Clone the Repository
+### 1. Clone the Repository!
 
 ```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
