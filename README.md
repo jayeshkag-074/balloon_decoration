@@ -102,7 +102,7 @@ Add your project screenshots here:
 - Admin dashboard
 - Booking confirmation notifications
 
-## 👨‍💻 Author
+## 👨‍💻 Author!
 
 **Your Name**
 
