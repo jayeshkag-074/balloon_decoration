@@ -64,7 +64,7 @@ git clone YOUR_GITHUB_REPOSITORY_URL
 cd balloon-decoration
 ```
 
-### 2. Run the Project
+### 2. Run the Project!
 
 Open `index.html` in your browser.
 
